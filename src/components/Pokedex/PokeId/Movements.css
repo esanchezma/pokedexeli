@@ -1,0 +1,49 @@
+.titleMove{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.titleMove h2{
+    font-size: 30px;
+    font-weight: 400; 
+    text-align: center;
+}
+
+
+.movies{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0;
+    max-width: 400px;
+
+ 
+}
+.move{
+    border: 1px solid  #E5E5E5;;
+    border-radius: 20%;
+    display: flex;
+    width: 170px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+  
+  
+}
+.move li{
+    color:#302F2F ;
+    font-size: 24px;
+    font-weight: 400px;
+
+}
+@media (max-width:650px){
+    
+   .move{
+    width: 100px;
+   }
+    
+}

@@ -1,0 +1,163 @@
+
+.container_det{  
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+ 
+    flex-wrap: wrap;
+}
+.header_det{
+    margin-top: 100px;
+    width: 100%;
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+.header_det img{
+    margin-top: 0;
+    position: absolute;
+    z-index: 1;
+    height: 500px;
+}
+.card_id{
+    margin-top: 500px;
+}
+.card_id h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.title{
+    margin-top: 30px;
+    font-size: 2rem;  
+   text-align: center;
+}
+.dimensions{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.weight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weight h4{
+    font-size: 16px;
+}
+.weight h3{
+    font-size: 25px;
+}
+.height h4{
+    font-size: 16px;
+}
+.height h3{
+    font-size: 25px;
+}
+
+.height{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.type{
+    border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin-top: 10px;
+   gap: 10px;
+   width: 400px;
+   flex-wrap: wrap;
+}
+
+.slot{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+.typeSkill{
+    display: flex;
+    width: 1000px;
+    border: 1px solid black;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; 
+    gap: 50px;
+    background-color: red; 
+}
+
+.typeSkill h2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.type{
+    width: 500px;
+    text-align: center;
+}
+.Skillis{
+    width: 500px;
+    text-align: center;
+}
+.btntip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px
+}
+.btntip li{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #7EC6C5;
+    font-size: 20px;
+    color: white;
+}
+.btnSkill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px
+}
+.btnSkill li{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;
+    border : 1px solid #D3D3D3;
+  
+}
+.container_stat{
+    border: 1px solid black;
+    width: 1000px;
+    height: 100px;
+    margin-left: 50px;
+}
+.container_stat h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 20px;
+} 
+
+.container_statDet{
+  background-color: #7EC6C5;
+}

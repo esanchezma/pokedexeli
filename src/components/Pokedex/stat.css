@@ -1,0 +1,41 @@
+.list-staat{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.val-text{
+    justify-content: center;
+    font-size: 15px;
+    color: #9F9F9F;
+
+}
+.val-stat{
+    width: 100%;
+    max-width: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3px;
+}
+.val-num{
+    color:  #7EC6C5 ;
+    font-size: 20px;
+}
+
+
+.barra-up{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+
+
+h4{
+    font-size: 12px;
+}

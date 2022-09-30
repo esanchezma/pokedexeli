@@ -1,0 +1,153 @@
+h3,h2{
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.heroPokemon{
+    background-color: white;
+    min-height: 100vh;
+
+}
+.heroBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:7%;
+    height: calc(100vh - 150px);
+}
+
+.heroTitlePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroTitlePrincipal h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(2rem, 8vw, 4rem);
+    color:#FE1936;
+}
+
+.heroTitlePrincipal h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(2rem, 4vw, 4rem);
+    color: #302F2F;
+}
+
+.heroBody{
+    min-width: 250px;
+}
+
+.heroBody input{
+    width: 250px;
+    height: 50px;
+    border : none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    padding: 14px;
+}
+.heroBody button{
+    width:200px;
+    height: 50px;
+    border: none;
+    background-color: #D93F3F;
+    color: white;
+    cursor: pointer;
+}
+.footerHero{
+   width: 100%;
+   height: 150px;   
+   background-color: #DD1A1A; 
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer .fblack{
+    width: 100%;
+    height: 65px;
+    background-color:#0C0C0C;
+    position: absolute;
+    bottom: 0;    
+}
+.fblack.i{
+    color:white;
+}
+.hero__social a i {
+    font-size: 20px;
+    color:#a9a9a9;
+    transition: all .3s ease-in-out;
+ }
+ .hero__social a i:hover {
+     
+     color:#fff;
+     
+  }
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    position: absolute;
+    width: 120px;
+    z-index: 1;
+    top: 30px;
+}
+
+.circle .circle2 {
+    position: absolute;
+    z-index: 2;
+    top: 47px;
+}
+
+@media (max-width: 768px) {
+    .heroBody img {
+        width: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .heroBody img {
+        width: 400px;
+    }
+    .heroBody input {
+        width: 200px;
+        height: 50px;
+    }
+
+    .heroBody button {
+        width: 150px;
+        height: 50px;
+    }
+}
+     
+   
+@media (max-width: 350px) {
+    .heroBody img {
+        width: 300px;
+    }
+
+    .heroBody input {
+        width: 150px;
+        height: 50px;
+    }
+
+    .heroBody button {
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .heroBody img {
+        width: 315px;
+    }
+}
